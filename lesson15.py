@@ -173,6 +173,9 @@ def is_prime(number):
 
 
 def next_prime(n):
-    pass
+    n += 1
+    while not is_prime(n):
+        n += 1
+    return n
 
 print(next_prime(17))
