@@ -164,18 +164,18 @@
 
 
 
-def is_prime(number):
-    for i in range(2, int(number ** 0.5) + 1):
-        if number % i == 0:
-            return False
-    else:
-        return True
+# def is_prime(number):
+#     for i in range(2, int(number ** 0.5) + 1):
+#         if number % i == 0:
+#             return False
+#     else:
+#         return True
 
 
-def next_prime(n):
-    n += 1
-    while not is_prime(n):
-        n += 1
-    return n
+# def next_prime(n):
+#     n += 1
+#     while not is_prime(n):
+#         n += 1
+#     return n
 
-print(next_prime(17))
+# print(next_prime(17))
