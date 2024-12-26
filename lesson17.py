@@ -80,8 +80,8 @@
 #         return dec_to_bin(number // 2) + str(number % 2)
 # print(dec_to_bin(13))
 # -----------------------------------------
-def prime_list(mylist):
-    pass
+# def prime_list(mylist):
+#     pass
 
-print(prime_list([1, [2, 3], [4, [5, [6, 7]]], [[[8], 9], [10]]]))
-[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# print(prime_list([1, [2, 3], [4, [5, [6, 7]]], [[[8], 9], [10]]]))
+# [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]

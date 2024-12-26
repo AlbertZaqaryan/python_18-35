@@ -1,0 +1,6 @@
+Error messages continue to improve, 
+with tracebacks now highlighted in 
+color by default. The locals() builtin 
+now has defined semantics for changing 
+the returned mapping, and type parameters 
+now support default values.
